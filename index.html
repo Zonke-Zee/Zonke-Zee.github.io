@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Zonke's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header class="1-header">
+            <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Zonke's Portfolio</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+            </header>
+
+    <main class="1-main">
+        <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hi,<br>My name is <span class="home__title-color">Zonke</span><br> Software Developer</h1>
+
+                    <div class="btns" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+                        <a href="#contact" class="button">Contact Me</a>
+                    <a href="zonkeCV.pdf" download="zonkeCV.pdf" class="button">Download CV</a>
+                    </div>
+                </div>
+
+                <div class="home__social" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/Zonke" class="home__social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ntombizonke-sethi-1887581a4" class="home__social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="20" href="images/zonkePNG2.JPG"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+        <!-- About Section-->
+
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="IMAGES/zonkePNG3.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <p class="about__text">I am an african women born and raised in Alexandra Township. I completed my Bachelor of Science in Computer Science degree from EDUVOS formerly known as Pearson Institute of Higher Education in 2021.
+                        I am a self-motivated individual with a passion for coding and software development. I have experience in HTML, CSS, JavaScript, JAVA and C++. I am eager to learn new technologies and improve my skills. I am currently looking for opportunities to apply my knowledge and contribute to exciting projects.
+                        I have worked at Planet Fitness for the past 4 years, starting from being a locker room attendent to receptionist and now a Call Centre Agent which has taught me a lot about customer service and problem solving.
+                        I have also gained a lot of team working and leadership skills playing rugby and being captain that I believe can be essential for the work environment.</p>
+                                                </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!-- About section-->
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <p class="skills__text">These are the coding languages I have learnt and can code in at different levels.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+
+                    <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-java skills__icon' ></i>
+                                <span class="skills__name">JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+                                
+                            </div>
+
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+
+                            <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-c-plus-plus skills__icon'></i>
+                                <span class="skills__name">C++</span>
+                            </div>
+                            <div class="skills__bar skills__cplusplus">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-database skills__icon' ></i>
+                                <span class="skills__name">MySQL</span>
+                            </div>
+                            <div class="skills__bar skills__mysql">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                </div>
+                    <div>              
+                        <img src="images/black-woman-hand-on-laptop-createherstock.jpg" alt="Black Women Typing" class="skills__img">
+                    </div>
+                
+                </div>
+            </section>
+
+            <!--===== Projects =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects__container bd-grid">
+                    <a href="https://precisionsons.co.za/" class="projects__img">
+                        <img src="images/precision.png" alt="Precision and Sons Website">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="images/portfolio.png" alt="Portofolio Website">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form id="form"  class="contact__form" action="https://formspree.io/f/xovwwrrn" method="POST">
+                        <div class="input-control">
+                        <input type="text" id="username" name="username" placeholder="Name" class="contact__input">
+                        <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                        <input type="text" id="email" name="email" placeholder="Email" class="contact__input">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <textarea name="messages" id="messages" cols="0" rows="10" placeholder= "How can I help you?" class="contact__input"></textarea>
+                        <div class="error"></div>
+                        </div>
+                        <input type="submit" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Zonke's Portfolio</p>
+            <div class="footer__social">
+                <a href="https://github.com/Zonke" class="footer__icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ntombizonke-sethi-1887581a4" class="footer__icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="footer__copy">&#169; Zonke. All rigths reserved</p>
+        </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="main.js"></script>
+   
+</body>
+</html>
