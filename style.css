@@ -155,7 +155,7 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: auto;
+  bottom: 0;
   width: 260px;
 }
 .home__blob {
@@ -165,6 +165,7 @@ img {
   width: 350px;
   position: relative;
   justify-content: center;
+  bottom: 50px;
 }
 
 /*BUTTONS*/
